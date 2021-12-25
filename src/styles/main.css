@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Readex+Pro:wght@200;300;400;500;600;700&display=swap");
+header {
+  background-color: #003349;
+  padding: 5px;
+  border-radius: 5px;
+  position: relative;
+}
+
+header .top_level {
+  list-style: none;
+}
+
+header .top_level li {
+  background-color: #0077c8;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+}
+
+header .top_level li:last-child {
+  border-bottom: none;
+}
+
+header .top_level li button {
+  border: none;
+  background: none;
+  padding: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+}
+
+header .level_1 {
+  font-size: 1rem;
+  list-style: none;
+}
+
+header .level_1 li {
+  padding: 10px 10px 10px 30px;
+  background-color: #003349;
+}
+
+header .level_2 {
+  font-size: 0.8rem;
+  list-style: none;
+}
+
+header .level_2 li {
+  padding: 10px 10px 10px 30px;
+  background-color: #fff;
+  color: #003349;
+  font-weight: bold;
+}
+
+header .level_3 {
+  font-size: 0.7rem;
+  list-style: none;
+  font-weight: 400;
+}
+
+header .level_3 li {
+  padding: 10px 10px 10px 30px;
+  background-color: #003349;
+  color: #fff;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 25px;
+}
+
+main .form_container {
+  color: #003349;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+main .form_container h3 {
+  font-size: 1.5rem;
+}
+
+main .form_container label {
+  display: block;
+  margin-top: 20px;
+}
+
+main .form_container input,
+main .form_container select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: "Readex Pro", sans-serif;
+  border-radius: 5px;
+}
+
+main .form_container select option {
+  font-weight: 400;
+  text-align: center;
+  color: #003349;
+}
+
+main .form_container .button {
+  background-color: #003349;
+  color: #fff;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+main .form_container .button:hover {
+  background-color: #0077c8;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Readex Pro", sans-serif;
+  padding: 5%;
+  background-color: #0077c8;
+  color: #fff;
+}
+/*# sourceMappingURL=main.css.map */

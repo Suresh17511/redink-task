@@ -1,0 +1,55 @@
+header {
+  background-color: #003349;
+  padding: 5px;
+  border-radius: 5px;
+  position: relative;
+  .top_level {
+    list-style: none;
+    li {
+      background-color: #0077c8;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+      cursor: pointer;
+      &:last-child {
+        border-bottom: none;
+      }
+      button {
+        border: none;
+        background: none;
+        padding: 10px;
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #fff;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .level_1 {
+    font-size: 1rem;
+    list-style: none;
+    li {
+      padding: 10px 10px 10px 30px;
+      background-color: #003349;
+    }
+  }
+  .level_2 {
+    font-size: 0.8rem;
+    list-style: none;
+    li {
+      padding: 10px 10px 10px 30px;
+      background-color: #fff;
+      color: #003349;
+      font-weight: bold;
+    }
+  }
+  .level_3 {
+    font-size: 0.7rem;
+    list-style: none;
+    font-weight: 400;
+    li {
+      padding: 10px 10px 10px 30px;
+      background-color: #003349;
+      color: #fff;
+    }
+  }
+}
